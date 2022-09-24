@@ -108,7 +108,22 @@ div {
 /* Header section */
 
 header {
-    background: lightgrey;
+    background: grey;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    height: fit-content;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.header__logo {
+    width: auto;
+    height: auto;
+    max-width: 80px;
+    max-height: 100px;
 }
 
 /* Navigation Bar */
@@ -167,6 +182,7 @@ header {
         display: grid;
         width: min-content;
         margin: 0 auto;
+        margin-top: 8em;
         grid-column-gap: 1em;
         grid-template-areas: 
             "img title"
@@ -184,11 +200,12 @@ header {
 
     .page__subtitle--intro {
         align-self: start;
+        color: white;
         grid-column: -1 / 1;
         grid-row: 2;
         text-align: right;
         position: relative;
         left: -1.5em;
-        width: calc(100% + 1.5em);
+        width: 90%;
     }
 }

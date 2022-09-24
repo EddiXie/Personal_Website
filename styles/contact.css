@@ -89,7 +89,22 @@ div {
 /* Header section */
 
 header {
-    background: lightgrey;
+    background: grey;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    height: fit-content;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.header__logo {
+    width: auto;
+    height: auto;
+    max-width: 80px;
+    max-height: 100px;
 }
 
 /* Navigation Bar */
