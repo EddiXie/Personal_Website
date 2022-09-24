@@ -158,12 +158,12 @@ header {
     background-image: url();
     background-size: cover;
 
-    color: var(--clr-light);
+    color: white;
     text-align: center;
 }
 
 .page__title--projects {
-    color: var(--clr-accent);
+    color: white;
     position: relative;
 }
 

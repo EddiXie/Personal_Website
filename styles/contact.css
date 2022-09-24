@@ -151,3 +151,51 @@ header {
     position: absolute;
     margin-top: -5px;
 }
+
+/* Contact Page */
+
+.contact {
+    background-color: lightgray;
+    box-shadow: 10px 10px black;
+    width: auto;
+    height: auto;
+    max-width: 40em;
+    max-height: 300px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.page__title {
+    margin: auto;
+    width: 50%;
+}
+
+.contact__links {
+    display: inline-flex;
+}
+
+.github__logo--img {
+    height: auto;
+    width: auto;
+    max-height: 100px;
+    min-height: 30px;
+    padding: 10px;
+}
+
+.mail__logo--img {
+    height: auto;
+    width: auto;
+    max-height: 100px;
+    min-height: 30px;
+    padding: 10px;
+}
+
+.linkedin__logo--img {
+    height: auto;
+    width: auto;
+    max-height: 100px;
+    min-height: 30px;
+    padding: 10px;
+}
