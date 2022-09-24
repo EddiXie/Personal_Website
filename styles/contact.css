@@ -84,3 +84,55 @@ div {
 .page__title {
     margin: 0.25;
 }
+
+
+/* Header section */
+
+header {
+    background: lightgrey;
+}
+
+/* Navigation Bar */
+
+.nav__list {
+    padding-left: 0;
+    background-color:grey;
+    text-align: right;
+}
+
+.nav__list > li {
+    display: inline-block;
+    padding: 1em;
+    padding-right: 5em;
+    width: 4em;
+    text-align: left;
+}
+
+.nav__list > li > a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav__item ::before {
+    content: '';
+    border-top: 2px solid black;
+    width: 140px;
+    position: absolute;
+    margin-top: -5px;
+}
+
+.nav__item:hover ::before {
+    content: '';
+    border-top: 6px solid antiquewhite;
+    width: 140px;
+    position: absolute;
+    margin-top: -5px;
+}
+
+.nav__item--contact ::before {
+    content: '';
+    border-top: 6px solid antiquewhite;
+    width: 140px;
+    position: absolute;
+    margin-top: -5px;
+}
