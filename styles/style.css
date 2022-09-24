@@ -107,7 +107,48 @@ div {
 
 /* Header section */
 
-nav { display: none; }
+header {
+    background: lightgrey;
+}
+
+.nav__list {
+    padding-left: 0;
+    background-color:grey;
+    text-align: right;
+}
+
+.nav__list > li ::before {
+    content: '';
+    border-top: 2px solid black;
+    width: 140px;
+    position: absolute;
+    margin-top: -5px;
+}
+
+.nav__list > li:hover ::before {
+    content: '';
+    border-top: 6px solid antiquewhite;
+    width: 140px;
+    position: absolute;
+    margin-top: -5px;
+}
+
+.nav__list > li {
+    display: inline-block;
+    padding: 1em;
+    padding-right: 5em;
+    width: 4em;
+    text-align: left;
+}
+
+.nav__list > li:hover {
+    background-color: darkgray;
+}
+
+.nav__list > li > a {
+    color: white;
+    text-decoration: none;
+}
 
 /* Intro section */
 
